@@ -1,6 +1,8 @@
-#Opre memória lapcsere fakultatív hf
+# Opre memória lapcsere fakultatív hf
 
-## feladatleírás
+Ezt a programot a BME Vik Operációs Rendszerek tárgyhoz készítettem 2022 tavaszi félévében.
+
+## Feladatleírás:
 Készítsen egy programot Java vagy Python nyelven, amely egy lapcsere-rendszer működését szimulálja!
 
 A program bemeneteként memóriaműveletek során hivatkozott lapok azonosítóit kapja a hivatkozásuk sorrendjében. Kimeneteként a végrehajtott lapcserék eredményeképpen lefoglalt fizikai memóriakeretek azonosítóit és a laphibák számát adja vissza.
@@ -10,9 +12,9 @@ A rendszerben 3 memóriakeret található, amelyek kezdetben mind üresek. Az in
 A lapokat számok (1-99), a kereteket betűk (A,B és C) jelölik.
 
 Bemenet (standard input, stdin)
-Egyetlen sorban a lapokra történő hivatkozások egymástól vesszővel elválasztva. Például:
+Egyetlen sorban a lapokra történő hivatkozások egymástól vesszővel elválasztva. Például: 1,2,3,-1,5,-1
 
-1,2,3,-1,5,-1
+
 A negatív számok írási műveleteket jeleznek a megadott lapon; ekkor a keretek "dirty" jelzést kapnak (ez nem minden algoritmus esetén releváns információ, de a bemeneten előfordulhat).
 
 A bemenet végét EOF jelzi (előtte soremelés, üres sor lehet). Ekkor kell a kimenetre kiírni az eredményt.
